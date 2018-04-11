@@ -3,7 +3,8 @@
   "version": "0.1.5",
   "description": "ISO 6709 Point Location - Typescript Client",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+	"test": "node dist/pointlocation6709--client.js"
   },
   "keywords": [
     "ISO 6709",
