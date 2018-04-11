@@ -1,0 +1,9 @@
+.vscode/
+.editorconfig
+docs/
+.nyc_output/
+coverage.lcov
+tsconfig.json
+src/
+
+pointlocation6709-ts--client-*.tgz
