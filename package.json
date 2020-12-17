@@ -1,6 +1,6 @@
 {
   "name": "pointlocation6709-ts--client",
-  "version": "0.3.0",
+  "version": "0.4.2",
   "description": "ISO 6709 Point Location - Typescript Client",
   "scripts": {
     "build": "tsc",
@@ -16,13 +16,13 @@
     "email": "sualeh@hotmail.com",
     "url": "https://github.com/sualeh/pointlocation6709-ts--client"
   },
-  "license": "EPL-1.0",
+  "license": "GPL-2.0-or-later",
   "repository": {
     "type": "git",
     "url": "git://github.com/sualeh/pointlocation6709-ts--client.git"
   },
   "homepage": "https://github.com/sualeh/pointlocation6709-ts--client",
   "dependencies": {
-    "pointlocation6709-ts": "^0.3.0"
+    "pointlocation6709-ts": "^0.4.2"
   }
 }

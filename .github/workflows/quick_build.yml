@@ -1,0 +1,29 @@
+name: Quick Build
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    name: Quick Build
+    runs-on: ubuntu-latest
+    steps:
+
+# SETUP BUILD ENVIRONMENT
+    - id: checkout-code
+      name: Checkout code
+      uses: actions/checkout@v2
+    - id: setup-node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+# BUILD
+    - id: build
+      name: Build and test
+      run: |
+        # Build
+        npm install -g typescript
+        npm install
+        npm run build
